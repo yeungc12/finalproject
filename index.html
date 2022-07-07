@@ -255,7 +255,14 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+<script>
+    const toggleButton = document.getElementById('dark_mode');
+    const body = document.getElementsByTagName("body")[0];
 
+    toggleButton.addEventListener('click', () => {
+      body.classList.toggle('light');
+    });
+  </script>
  
 </body>
 </html>
